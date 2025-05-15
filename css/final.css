@@ -1,0 +1,55 @@
+body {
+    font: small 'Lucida Grande', Verdana, Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* Form elements */
+textarea, input, select {
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 5px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Results section initially hidden */
+section#results {
+    display: none;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+}
+
+table thead td, table th {
+    font-weight: bold;
+}
+
+table td, table th {
+    border: 1px solid rgb(200,200,200);
+    padding: 4px 8px;
+}
+
+/* Loading indicator */
+#loading {
+    display: none;
+    margin: 10px 0;
+}
+
+.sequence-cell {
+    max-width: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 5px;
+}
