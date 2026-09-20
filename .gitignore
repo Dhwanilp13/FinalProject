@@ -1,0 +1,25 @@
+# Secrets — never commit real credentials
+settings.ini
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives and local backups
+*.tar
+*.tar.gz
+*.zip
+*.log
